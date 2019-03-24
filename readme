@@ -2,12 +2,21 @@
 ********************************************
 Base de datos
 
-crear la bd con nombre maps2go
-correr el script base.sql
-
 --Usuario
 usuario: maave
 contraseña: maave
+crear la bd con nombre maps2go
+correr el script base.sql
+
+--Comandos para crear bd y usuario
+
+1) psql -U postgres -h localhost -W 
+2) CREATE DATABASE maps2go;
+3) CREATE USER maave password 'maave';
+4) ALTER ROLE maave WITH SUPERUSER;
+
+--Comando para correr script 
+psql -h localhost -U maave -W -d maps2go -f base.sql 
 
 ********************************************
 ********************************************
