@@ -2,12 +2,12 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 24/03/2019 03:06:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-  <class name="java.com.maave.maps2go.modelo.Tema" optimistic-lock="version" schema="public" table="tema">
+  <class name="maave.maps2go.modelo.Tema" optimistic-lock="version" schema="public" table="tema">
     <id name="tipoTema" type="string">
       <column name="tipo_tema"/>
       <generator class="assigned"/>
     </id>
-    <many-to-one class="java.com.maave.maps2go.modelo.Usuario" fetch="select" name="usuario">
+    <many-to-one class="maave.maps2go.modelo.Usuario" fetch="select" name="usuario">
       <column name="nombre_usuario" not-null="true"/>
     </many-to-one>
     <property name="color" type="string">
@@ -17,7 +17,7 @@
       <key>
         <column name="tipo_tema" not-null="true"/>
       </key>
-      <one-to-many class="java.com.maave.maps2go.modelo.Marcador"/>
+      <one-to-many class="maave.maps2go.modelo.Marcador"/>
     </set>
   </class>
 </hibernate-mapping>

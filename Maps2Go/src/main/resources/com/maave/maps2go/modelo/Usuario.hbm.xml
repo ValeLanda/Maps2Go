@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 24/03/2019 03:06:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-  <class name="java.com.maave.maps2go.modelo.Usuario" optimistic-lock="version" schema="public" table="usuario">
+  <class name="maave.maps2go.modelo.Usuario" optimistic-lock="version" schema="public" table="usuario">
     <id name="nombreUsuario" type="string">
       <column name="nombre_usuario"/>
       <generator class="assigned"/>
@@ -20,13 +20,13 @@
       <key>
         <column name="nombre_usuario" not-null="true"/>
       </key>
-      <one-to-many class="java.com.maave.maps2go.modelo.Tema"/>
+      <one-to-many class="maave.maps2go.modelo.Tema"/>
     </set>
     <set fetch="select" inverse="true" lazy="true" name="comentarios" table="comentario">
       <key>
         <column name="nombre_usuario" not-null="true"/>
       </key>
-      <one-to-many class="java.com.maave.maps2go.modelo.Comentario"/>
+      <one-to-many class="maave.maps2go.modelo.Comentario"/>
     </set>
   </class>
 </hibernate-mapping>

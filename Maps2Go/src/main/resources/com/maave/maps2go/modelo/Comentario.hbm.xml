@@ -2,15 +2,15 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <!-- Generated 24/03/2019 03:06:54 PM by Hibernate Tools 4.3.1 -->
 <hibernate-mapping>
-  <class name="java.com.maave.maps2go.modelo.Comentario" optimistic-lock="version" schema="public" table="comentario">
+  <class name="maave.maps2go.modelo.Comentario" optimistic-lock="version" schema="public" table="comentario">
     <id name="numComentario" type="int">
       <column name="num_comentario"/>
       <generator class="identity"/>
     </id>
-    <many-to-one class="java.com.maave.maps2go.modelo.Marcador" fetch="select" name="marcador">
+    <many-to-one class="maave.maps2go.modelo.Marcador" fetch="select" name="marcador">
       <column name="num_marcador" not-null="true"/>
     </many-to-one>
-    <many-to-one class="java.com.maave.maps2go.modelo.Usuario" fetch="select" name="usuario">
+    <many-to-one class="maave.maps2go.modelo.Usuario" fetch="select" name="usuario">
       <column name="nombre_usuario" not-null="true"/>
     </many-to-one>
     <property name="contenido" type="string">
