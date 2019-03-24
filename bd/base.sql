@@ -32,7 +32,6 @@ create table comentario(
 	dislikes int not null, 
 	num_marcador int not null, 
 	nombre_usuario text not null, 
-	fecha date not null,
 	constraint "comentario_pk" primary key(num_comentario)
 	);
 
