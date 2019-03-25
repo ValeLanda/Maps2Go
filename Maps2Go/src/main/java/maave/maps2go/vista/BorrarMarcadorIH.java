@@ -3,24 +3,24 @@ package maave.maps2go.vista;
 public class BorrarMarcadorIH {
     private double latitud;
 
-    private double getLatitud() {
+    public double getLatitud() {
         // Automatically generated method. Please do not modify this code.
         return this.latitud;
     }
 
-    private void setLatitud(double value) {
+    public void setLatitud(double value) {
         // Automatically generated method. Please do not modify this code.
         this.latitud = value;
     }
 
     private double longitud;
 
-    private double getLongitud() {
+    public double getLongitud() {
         // Automatically generated method. Please do not modify this code.
         return this.longitud;
     }
 
-    private void setLongitud(double value) {
+    public void setLongitud(double value) {
         // Automatically generated method. Please do not modify this code.
         this.longitud = value;
     }

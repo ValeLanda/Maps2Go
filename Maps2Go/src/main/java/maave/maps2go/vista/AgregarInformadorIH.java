@@ -3,24 +3,24 @@ package maave.maps2go.vista;
 public class AgregarInformadorIH {
     private String correo;
 
-    private String getCorreo() {
+    public String getCorreo() {
         // Automatically generated method. Please do not modify this code.
         return this.correo;
     }
 
-    private void setCorreo(String value) {
+    public void setCorreo(String value) {
         // Automatically generated method. Please do not modify this code.
         this.correo = value;
     }
 
     private String nombreUsuario;
 
-    private String getNombreUsuario() {
+    public String getNombreUsuario() {
         // Automatically generated method. Please do not modify this code.
         return this.nombreUsuario;
     }
 
-    private void setNombreUsuario(String value) {
+    public void setNombreUsuario(String value) {
         // Automatically generated method. Please do not modify this code.
         this.nombreUsuario = value;
     }

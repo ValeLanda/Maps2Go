@@ -3,24 +3,24 @@ package maave.maps2go.vista;
 public class PrincipalComentaristaIH {
     private String comentario;
 
-    private String getComentario() {
+    public String getComentario() {
         // Automatically generated method. Please do not modify this code.
         return this.comentario;
     }
 
-    private void setComentario(String value) {
+    public void setComentario(String value) {
         // Automatically generated method. Please do not modify this code.
         this.comentario = value;
     }
 
     private String tema;
 
-    private String getTema() {
+    public String getTema() {
         // Automatically generated method. Please do not modify this code.
         return this.tema;
     }
 
-    private void setTema(String value) {
+    public void setTema(String value) {
         // Automatically generated method. Please do not modify this code.
         this.tema = value;
     }

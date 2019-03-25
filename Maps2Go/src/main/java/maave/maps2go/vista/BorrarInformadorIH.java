@@ -3,12 +3,12 @@ package maave.maps2go.vista;
 public class BorrarInformadorIH {
     private String nombreUsuario;
 
-    private String getNombreUsuario() {
+    public String getNombreUsuario() {
         // Automatically generated method. Please do not modify this code.
         return this.nombreUsuario;
     }
 
-    private void setNombreUsuario(String value) {
+    public void setNombreUsuario(String value) {
         // Automatically generated method. Please do not modify this code.
         this.nombreUsuario = value;
     }

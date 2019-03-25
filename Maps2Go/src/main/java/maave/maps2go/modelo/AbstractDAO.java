@@ -15,12 +15,12 @@ public abstract class AbstractDAO<T> {
          this.sessionFactory = HibernateUtil.getSessionFactory();
     }
     
-    private SessionFactory getSessionFactory() {
+    public SessionFactory getSessionFactory() {
         // Automatically generated method. Please do not modify this code.
         return this.sessionFactory;
     }
 
-    private void setSessionFactory(SessionFactory value) {
+    public void setSessionFactory(SessionFactory value) {
         // Automatically generated method. Please do not modify this code.
         this.sessionFactory = value;
     }

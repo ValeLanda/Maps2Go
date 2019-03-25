@@ -3,12 +3,12 @@ package maave.maps2go.vista;
 public class PrincipalInformadorIH {
     private String tema;
 
-    private String getTema() {
+    public String getTema() {
         // Automatically generated method. Please do not modify this code.
         return this.tema;
     }
 
-    private void setTema(String value) {
+    public void setTema(String value) {
         // Automatically generated method. Please do not modify this code.
         this.tema = value;
     }

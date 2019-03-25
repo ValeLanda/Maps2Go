@@ -4,48 +4,48 @@ package maave.maps2go.controlador;
 public class ComentarioCtrl {
     private int numComentario;
 
-    private int getNumComentario() {
+    public int getNumComentario() {
         // Automatically generated method. Please do not modify this code.
         return this.numComentario;
     }
 
-    private void setNumComentario(int value) {
+    public void setNumComentario(int value) {
         // Automatically generated method. Please do not modify this code.
         this.numComentario = value;
     }
 
     private String contenido;
 
-    private String getContenido() {
+    public String getContenido() {
         // Automatically generated method. Please do not modify this code.
         return this.contenido;
     }
 
-    private void setContenido(String value) {
+    public void setContenido(String value) {
         // Automatically generated method. Please do not modify this code.
         this.contenido = value;
     }
 
     private int like;
 
-    private int getLike() {
+    public int getLike() {
         // Automatically generated method. Please do not modify this code.
         return this.like;
     }
 
-    private void setLike(int value) {
+    public void setLike(int value) {
         // Automatically generated method. Please do not modify this code.
         this.like = value;
     }
 
     private int dislike;
 
-    private int getDislike() {
+    public int getDislike() {
         // Automatically generated method. Please do not modify this code.
         return this.dislike;
     }
 
-    private void setDislike(int value) {
+    public void setDislike(int value) {
         // Automatically generated method. Please do not modify this code.
         this.dislike = value;
     }

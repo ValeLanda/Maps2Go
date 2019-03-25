@@ -3,48 +3,48 @@ package maave.maps2go.vista;
 public class AgregarMarcadorIH {
     private String descripcion;
 
-    private String getDescripcion() {
+    public String getDescripcion() {
         // Automatically generated method. Please do not modify this code.
         return this.descripcion;
     }
 
-    private void setDescripcion(String value) {
+    public void setDescripcion(String value) {
         // Automatically generated method. Please do not modify this code.
         this.descripcion = value;
     }
 
     private String datosUtiles;
 
-    private String getDatosUtiles() {
+    public String getDatosUtiles() {
         // Automatically generated method. Please do not modify this code.
         return this.datosUtiles;
     }
 
-    private void setDatosUtiles(String value) {
+    public void setDatosUtiles(String value) {
         // Automatically generated method. Please do not modify this code.
         this.datosUtiles = value;
     }
 
     private double latitud;
 
-    private double getLatitud() {
+    public double getLatitud() {
         // Automatically generated method. Please do not modify this code.
         return this.latitud;
     }
 
-    private void setLatitud(double value) {
+    public void setLatitud(double value) {
         // Automatically generated method. Please do not modify this code.
         this.latitud = value;
     }
 
     private double longitud;
 
-    private double getLongitud() {
+    public double getLongitud() {
         // Automatically generated method. Please do not modify this code.
         return this.longitud;
     }
 
-    private void setLongitud(double value) {
+    public void setLongitud(double value) {
         // Automatically generated method. Please do not modify this code.
         this.longitud = value;
     }
